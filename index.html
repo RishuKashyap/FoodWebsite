@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fully Responsive Website</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1050px)" href="phone.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img id=logo src="logo.jpg" alt="thetastehome.com">
+        </div>
+        <ul id=navul>
+            <li class="items"><a href="#home">HOME</a></li>  
+            <li class="items"><a href="#services-container">SERVICES</a></li>  
+            <li class="items"><a href="#client-section">CLIENTS</a></li>  
+            <li class="items"><a href="#contact">CONTACT US</a></li>  
+
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to online food and herbs store</h1>
+        <p>Want some good quality food and herbs!!!!!!
+            you're at the right place:)
+        </p>
+        <button class="btn">Order Now</button>
+        
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">
+            Our Services
+        </h1>
+        <div id="services">
+            <div class="box">
+                <img src="cupcake.jpg" alt="cupcake">
+                <h2 class="h-secondary center">
+                    cakes and pastries
+                </h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe perspiciatis pariatur, quibusdam, asperiores quae porro mollitia quo suscipit repellat odio earum beatae </p>
+            </div>
+            <div class="box">
+                <img src="vegetable.jpg" alt="cupcake">
+                <h2 class="h-secondary center">
+                    fresh vegetables
+                </h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro dolor, error fuga eius velit unde! Atque explicabo id eos quia voluptatum</p>
+            </div>
+            <div class="box">
+                <img src="strawberry.jpg" alt="cupcake">
+                <h2 class="h-secondary center">
+                    fresh fruits
+                </h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatem sapiente minima! Error, tempore dicta amet modi exercitationem assumenda </p>
+            </div>
+            
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-items">
+                <img src="apple.png" alt="Our Clients">
+            </div>
+            <div class="client-items">
+                <img src="carrrot.png" alt="Our Clients">
+            </div>
+            <div class="client-items">
+                <img src="orange.png" alt="Our Clients">
+            </div>
+            <div class="client-items">
+                <img src="straw.png" alt="Our Clients">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="Mobile-no">Mobile No: </label>
+                    <input type="number" name="mobile-no" id="mobile-no" placeholder="Enter your mobile number">
+                </div>
+                <div class="form-group">
+                    <label for="">Feedback or query: </label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+                </div>
+               
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.freshherbsvegs.com. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
